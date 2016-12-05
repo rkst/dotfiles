@@ -1,0 +1,16 @@
+[user]
+	name = 
+	email = 
+[include]
+	path = ~/.gitconfig.github
+[alias]
+	hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+	editor = vim
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = simple
