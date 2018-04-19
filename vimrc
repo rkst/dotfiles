@@ -17,8 +17,8 @@ filetype off
 " Enable syntax highlighting
 syntax on 
 " let g:solarized_termcolors=256
-set background=dark
-colorscheme noctu
+" set background=dark
+" colorscheme noctu
 
 " Markdown syntax highlighting for *.md files
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown

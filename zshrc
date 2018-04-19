@@ -94,5 +94,7 @@ alias tf="terraform"
 alias gco='git checkout'
 alias ga='git add'
 alias gb='git branch'
+alias gs='git status'
+alias gh='hit hist'
 alias reload='. ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
