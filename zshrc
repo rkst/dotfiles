@@ -58,13 +58,14 @@ ZSH_THEME="gitster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump brew)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+export AWS_PROFILE=default
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -89,12 +90,13 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="sb ~/.zshrc"
+alias zshconfig="sb -n ~/.zshrc"
 alias tf="terraform"
 alias gco='git checkout'
+alias gcm='git commit'
 alias ga='git add'
 alias gb='git branch'
 alias gs='git status'
-alias gh='hit hist'
+alias gh='git hist'
 alias reload='. ~/.zshrc'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
